@@ -1,0 +1,131 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: url("images/swirl.jpg") no-repeat center fixed;
+	background-size: cover;
+}
+
+@font-face {
+	font-family: Clausly;
+	src: url("fonts/Clausly.ttf");
+}
+
+@font-face {
+	font-family: Snowfun;
+	src: url("fonts/Snowfun.ttf");
+}
+
+header {
+	display: flex;
+	position: relative;
+	justify-content: space-between;
+	bottom: 30px;
+}
+
+.return_home {
+	display: block;
+	font-family: Snowfun;
+	font-size: 40px;
+	letter-spacing: 2px;
+}
+
+a {
+	text-decoration: none;
+	color: #990033;
+}
+
+a:hover {
+	color: #CC0000;
+}
+
+.title {
+	display: block;
+	font-family: Clausly;
+	font-size: 50px;
+	color: #7FFF00;
+	-webkit-text-stroke-width: 1px;
+  	-webkit-text-stroke-color: black;
+}
+
+.no_text {
+	display: block;
+	width: 150px;
+	height: 150px;
+}
+
+#list_index {
+	display: flex;
+	font-family: Snowfun;
+	font-size: 40px;
+	justify-content: center;
+	color: #090070;
+	letter-spacing: 2px;
+}
+
+nav {
+	display: flex;
+	margin: auto;
+	justify-content: center;
+	margin-bottom: 100px;
+}
+
+ul {
+	font-family: Clausly;
+	list-style-type: none;
+	font-size: 30px;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background: rgb(255,0,0);
+	background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(196,228,22,1) 25%, rgba(255,0,0,1) 75%, rgba(196,228,22,1) 100%);
+	border-radius: 25px;
+}
+
+li {
+	float: left;
+	padding: 4px 20px;
+}
+
+nav a {
+	color: #000000;
+}
+
+nav a:hover {
+	color: #333333;
+}
+
+article {
+	display: flex;
+	flex-flow: column wrap;
+	align-items: center;
+}
+
+article h1 {
+	font-family: Clausly;
+	color: #090070;
+	font-size: 35px;
+	margin: 0;
+	padding: 0;
+}
+
+#job_title {
+	color: white;
+	font-weight: 300;
+}
+
+article p {
+	font-family: Clausly;
+	color: #4C008C;
+	font-size: 30px;
+	font-weight: 500;
+	letter-spacing: 2px;
+}
+
+.resize {
+	max-width: 100%;
+	height: auto;
+	border: 2px ridge black;
+	margin-bottom: 200px;
+}

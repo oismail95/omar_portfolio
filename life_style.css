@@ -1,0 +1,144 @@
+* {
+	box-sizing: border-box;
+}
+
+@font-face {
+	font-family: BlueEyes;
+	src: url("fonts/Blue Eyes.otf");
+}
+
+@font-face {
+	font-family: "Monterey";
+	src: url("fonts/MontereyFLF.ttf");
+}
+
+body {
+	background: url("images/Fluid_Gradient_Background.jpg") no-repeat center fixed;
+	background-size: cover;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+	bottom: 30px;
+}
+
+.return_home {
+	display: block;
+	font-family: Monterey;
+	font-size: 25px;
+	font-weight: 600;
+}
+
+/*Decorates the return home text*/
+a {
+	color: #66FF33;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #009933;
+}
+
+.title {
+	display: block;
+	font-family: BlueEyes;
+	color: #F2CA86;
+	font-size: 50px;
+}
+
+.no_text {
+	display: block;
+	width: 100px;
+	height: 100px;
+}
+
+#list_index {
+	display: flex;
+	font-family: Monterey;
+	font-size: 25px;
+	justify-content: center;
+	color: #FFFF00;
+}
+
+nav {
+	display: flex;
+	margin: auto;
+	justify-content: center;
+	margin-bottom: 100px;
+}
+
+nav a {
+	color: #000000;
+}
+
+nav a:hover {
+	color: #595959;
+}
+
+ul {
+	font-family: Monterey;
+	font-size: 20px;
+	font-weight: 700;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background: rgb(241,255,0);
+	background: linear-gradient(90deg, rgba(241,255,0,1) 0%, rgba(9,121,95,1) 25%, rgba(241,255,0,1) 75%, rgba(9,121,95,1) 100%);
+	border-radius: 20px;
+}
+
+li {
+	float: left;
+	padding: 4px 12px;
+	color: black;
+}
+
+li a {
+	display: block;
+	text-align: center
+}
+
+article {
+	display: flex;
+	flex-flow: column wrap;
+	align-items: center;
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+
+article h1 {
+	font-family: Monterey;
+	font-size: 30px;
+	font-weight: 600;
+	color: #FF9933;
+	margin: 0;
+	padding: 0;
+}
+
+article p {
+	font-family: Monterey;
+	color: #FFCC00;
+	font-size: 20px;
+	text-align: center;
+}
+
+/*resize image*/
+.resize {
+	max-width: 100%;
+	height: auto;
+	margin-bottom: 80px;
+	border: 2px ridge black;
+}
+
+#no_border {
+	border-style: none;
+}
+
+#pi_photos {
+	display: flex;
+	justify-content: center;
+	flex-flow: row wrap;
+}

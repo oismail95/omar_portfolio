@@ -1,0 +1,118 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: url("images/abstract_curve.jpg") no-repeat center fixed;
+	background-size: cover;
+}
+
+@font-face {
+	font-family: SweetHome;
+	src: url("fonts/SWEET HOME.otf");
+}
+
+@font-face {
+	font-family: Floane;
+	src: url("fonts/Floane-Regular.otf");
+}
+
+header {
+	display: flex;
+	position: relative;
+	bottom: 30px;
+	justify-content: space-between;
+}
+
+.return_home {
+	font-family: Floane;
+	font-size: 25px;
+	font-weight: 600;
+}
+
+a {
+	text-decoration: none;
+	color: #527A7A;
+}
+
+a:hover {
+	color: #334D4D;
+}
+
+.title {
+	font-family: SweetHome;
+	font-size: 40px;
+}
+
+.no_text {
+	display: block;
+	width: 125px;
+	height: 125px;
+}
+
+#list_index {
+	display: flex;
+	font-family: Floane;
+	justify-content: center;
+	font-size: 30px;
+	color: #4CB280;
+	font-weight: 600;
+}
+
+nav {
+	display: flex;
+	margin: auto;
+	justify-content: center;
+}
+
+nav a {
+	color: #8A8A5C;
+}
+
+nav a:hover {
+	color: #3D3D29;
+}
+
+ul {
+	font-family: Floane;
+	list-style-type: none;
+	font-size: 25px;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background: rgb(76,0,255);
+	background: linear-gradient(90deg, rgba(76,0,255,1) 0%, rgba(22,75,228,1) 25%, rgba(76,0,255,1) 75%, rgba(22,75,228,1) 100%);
+	border-radius: 20px;
+	margin-bottom: 50px;
+}
+
+li {
+	float: left;
+	padding: 4px 8px;
+}
+
+article {
+	display: flex;
+	flex-flow: column wrap;
+	align-items: center;
+	margin-top: 40px;
+	margin-bottom: 60px;
+}
+
+article h1 {
+	font-family: Floane;
+	color: #990000;
+}
+
+article p {
+	font-family: Floane;
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.resize {
+	max-width: 100%;
+	height: auto;
+	border: 2px ridge black;
+	margin-bottom: 200px;
+}

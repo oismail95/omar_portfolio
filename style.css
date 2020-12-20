@@ -1,0 +1,89 @@
+* {
+	box-sizing: border-box;
+}
+
+@font-face {
+  font-family: highSpeed;
+  src: url('fonts/High Speed.ttf');
+}
+
+body {
+	background: url("images/cloud.jpg") no-repeat center fixed;
+	background-size: cover;
+}
+
+/*Displays my full name.*/
+.name {
+	font-family: highSpeed;
+	font-size: 50px;
+	text-align: center;
+	color: #4B0082;
+	background-color: #00BFFF;
+	max-width: 800px;
+	height: auto;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	border: 1px solid black;
+	border-radius: 20px;
+}
+
+img {
+	max-width: 275px;
+	height: auto;
+}
+
+/*Centers my image.*/
+.center {
+	display: block;
+	margin: auto;
+	border: 8px outset darkgreen;
+}
+
+nav {
+	max-width: 600px;
+	display: block;
+	margin: auto;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	color: #696969;
+}
+
+ul {
+	list-style-type: none;
+	overflow: hidden;
+	background-color: #FFD700;
+	border: 1px solid black;
+	border-radius: 25px;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	font-family: highSpeed;
+	color: black;
+	text-align: center;
+	padding: 10px 6px;
+}
+
+footer {
+	display: block;
+	font-family: highSpeed;
+	color: black;
+	background-color: #D38FE0;
+	text-align: center;
+	border: 1px solid black;
+	border-radius: 20px;
+	margin: auto;
+	margin-top: 20px;
+	max-width: 400px;
+	height: auto;
+}
